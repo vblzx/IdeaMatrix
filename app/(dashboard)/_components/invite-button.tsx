@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 export const InviteButton = () => {
     return (
         <Dialog>
-            <DialogTitle> 
+            <DialogTitle> </DialogTitle>
                 <DialogTrigger asChild>
                     <Button variant="outline">
                         <Plus className="h-4 w-4 mr-2" />
@@ -14,10 +14,10 @@ export const InviteButton = () => {
                     </Button>
                 </DialogTrigger>
 
-                <DialogContent className="p-0 bg-transparent border-none max-w-[880px]">
+                <DialogContent className="p-0 bg-transparent border-none max-w-[890px]">
                     <OrganizationProfile routing="hash"/>
                 </DialogContent>
-            </DialogTitle>
+                
         </Dialog>
     )
 }

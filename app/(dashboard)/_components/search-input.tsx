@@ -23,6 +23,7 @@ export const SearchInput = () => {
                 search: debouncedValue,
             },
         }, { skipEmptyString: true, skipNull: true});
+
         router.push(url);
     }, [debouncedValue, router])
 
@@ -33,3 +34,4 @@ export const SearchInput = () => {
         </div>
     )
 }
+export default SearchInput
